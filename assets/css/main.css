@@ -2199,8 +2199,8 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 			}
 
-			.panel > *.color1 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #102950 25%, #0ecfa2 50%, rgba(255, 228, 180, 0.25));
+			.panel > *.color10 {
+				background-image: url("../../images/overlay.png"), linear-gradient(100deg, #102950 100%, #0ecfa2 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #0ecfa2;
 			}
@@ -2224,9 +2224,9 @@ input, select, textarea {
 			}
 
 			.panel > *.color1-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #102950 100%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
-				background-color: #6c5e86;
+				background-color: #102950;
 			}
 
 			.panel > *.color2-alt {
@@ -2244,7 +2244,7 @@ input, select, textarea {
 			.panel > *.color4-alt {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
-				background-color: #323459;
+				background-color: #102950;
 			}
 
 		.panel > .intro {
@@ -3689,7 +3689,9 @@ input, select, textarea {
 	}
 
 	#page-wrapper{
-		background-color: #0a192f;
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-size: 128px 128px, auto;
+				background-color: #6c5e86;
 	}
 	
 
@@ -3723,4 +3725,8 @@ input, select, textarea {
 .cv_button2{
 	position: relative;
 	left: 130%;
+}
+
+section{
+	background-color: #102950;
 }
